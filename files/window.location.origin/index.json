@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "window.location.origin",
-            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/URLUtils/origin"
+            "info" : "https://developer.mozilla.org/en-US/docs/Web/API/URLUtils/origin"
         }
     ],
 

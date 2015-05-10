@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "URL",
-            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/URL"
+            "info" : "https://developer.mozilla.org/en-US/docs/Web/API/URL"
         }
     ],
 

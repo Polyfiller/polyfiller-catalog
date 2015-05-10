@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "window.navigator.getUserMedia",
-            "url" : "http://dev.w3.org/2011/webrtc/editor/getusermedia.html"
+            "info" : "http://dev.w3.org/2011/webrtc/editor/getusermedia.html"
         }
     ],
 

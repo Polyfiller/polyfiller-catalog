@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "window.location.origin",
-            "url" : "https://html.spec.whatwg.org/multipage/webappapis.html#navigatorlanguage"
+            "info" : "https://html.spec.whatwg.org/multipage/webappapis.html#navigatorlanguage"
         }
     ],
 

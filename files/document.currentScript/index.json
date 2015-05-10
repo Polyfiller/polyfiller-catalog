@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "document.scrollingElement",
-            "url" : "http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#dom-document-currentscript"
+            "info" : "http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#dom-document-currentscript"
         }
     ],
 

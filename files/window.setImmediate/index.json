@@ -6,12 +6,12 @@
     "files": [
         {
             "name": "window.setImmediate",
-            "url" : "https://developer.mozilla.org/ru/docs/Web/API/Window/setImmediate"
+            "info" : "https://developer.mozilla.org/ru/docs/Web/API/Window/setImmediate"
         },
 
         {
             "name": "window.clearImmediate",
-            "url" : "https://developer.mozilla.org/ru/docs/Web/API/Window/clearImmediate"
+            "info" : "https://developer.mozilla.org/ru/docs/Web/API/Window/clearImmediate"
         }
     ],
 

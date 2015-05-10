@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "document.scrollingElement",
-            "url" : "http://dev.w3.org/csswg/cssom-view/#dom-document-scrollingelement"
+            "info" : "http://dev.w3.org/csswg/cssom-view/#dom-document-scrollingelement"
         }
     ],
 

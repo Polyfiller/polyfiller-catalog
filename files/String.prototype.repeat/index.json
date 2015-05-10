@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "String.prototype.repeat",
-            "infp": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/repeat"
+            "info": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/repeat"
         }
     ],
 

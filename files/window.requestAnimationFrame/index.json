@@ -6,12 +6,12 @@
     "files": [
         {
             "name": "window.requestAnimationFrame",
-            "url" : "https://developer.mozilla.org/ru/docs/DOM/window.requestAnimationFrame"
+            "info" : "https://developer.mozilla.org/ru/docs/DOM/window.requestAnimationFrame"
         },
 
         {
             "name": "window.cancelAnimationFrame",
-            "url" : "https://developer.mozilla.org/ru/docs/DOM/window.cancelAnimationFrame"
+            "info" : "https://developer.mozilla.org/ru/docs/DOM/window.cancelAnimationFrame"
         }
     ],
 

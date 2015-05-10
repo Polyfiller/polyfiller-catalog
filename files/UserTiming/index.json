@@ -6,37 +6,37 @@
     "files": [
         {
             "name": "window.performance.clearMarks",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.clearMeasures",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.getEntries",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.getEntriesByName",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.getEntriesByType",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.mark",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         },
 
         {
             "name": "window.performance.measure",
-            "url" : "http://www.w3.org/TR/user-timing/"
+            "info" : "http://www.w3.org/TR/user-timing/"
         }
     ],
 

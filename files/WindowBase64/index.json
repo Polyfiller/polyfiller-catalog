@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "WindowBase64",
-            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64"
+            "info" : "https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64"
         }
     ],
 

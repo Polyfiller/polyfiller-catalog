@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "Element.prototype.dataset",
-            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset"
+            "info" : "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset"
         }
     ],
 

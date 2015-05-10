@@ -6,7 +6,7 @@
     "files": [
         {
             "name": "window.performance.now",
-            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/Performance/now"
+            "info" : "https://developer.mozilla.org/en-US/docs/Web/API/Performance/now"
         }
     ],
 

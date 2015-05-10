@@ -2,11 +2,11 @@
 
 module.exports = {
     build: [
+        'clean',
         'babel:build'
     ],
 
     test: [
-        'clean',
         'build',
         'mochaTest:catalog'
     ],

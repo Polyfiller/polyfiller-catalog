@@ -1,4 +1,4 @@
-# Polyfiller catalog
+# polyfiller-catalog
 
 [![npm version](https://badge.fury.io/js/polyfiller-catalog.svg)](http://badge.fury.io/js/polyfiller-catalog)
 [![Build Status](https://travis-ci.org/Polyfiller/polyfiller-catalog.png)](https://travis-ci.org/Polyfiller/polyfiller-catalog)
@@ -17,7 +17,7 @@ If you haven't used [npm](https://www.npmjs.com/) before, be sure to check out t
 Once you're familiar with that process, you may install this package with this command:
 
 ```shell
-npm install polyfiller --save-dev
+npm install polyfiller-catalog --save-dev
 ```
 
 Once the package has been installed, it may be used inside your files with this line of JavaScript:

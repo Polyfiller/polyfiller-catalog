@@ -4,6 +4,6 @@ import path from 'path';
 
 export default {
     path () {
-        return path.resolve('./files');
+        return path.resolve(__dirname, './files');
     }
 };

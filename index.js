@@ -3,5 +3,7 @@
 import path from 'path';
 
 export default {
-    path: path.resolve('./files')
+    path () {
+        return path.resolve('./files');
+    }
 };

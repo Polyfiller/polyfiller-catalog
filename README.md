@@ -44,9 +44,9 @@ catalog.MODULES; // node_modules directory
 grunt test
 ```
 
-### Structure
+### File structure
 
-Required file structure;
+Required file structure for each new package:
 
 ```
 catalog
@@ -80,6 +80,22 @@ module.exports = [
 ];
 ```
 
+**package.json**
+
+Use `dependencies` and `bundleDependencies` for new features located in `npm` 
+
+```json
+{
+	"dependencies": {
+		"es6-promises": "^1.0.10"
+	},
+
+	"bundleDependencies": [
+		"es6-promises"
+	]
+}
+```
+
 The files are located locally?
 
 ```
@@ -108,10 +124,11 @@ module.exports = [
 
 1. Fork the one
 2. Create a topic branch
-3. Make your commits
-4. Write the tests and run `grunt test`
-4. Run `grunt build`
-5. Submit Pull Request once Tests are Passing
+3. Read about file structure above
+4. Make your commits
+5. Write the tests (for new functionality) 
+6. Run `grunt test`
+7. Submit Pull Request once Tests are Passing
 
 
 ### License

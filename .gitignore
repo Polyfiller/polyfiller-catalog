@@ -24,6 +24,7 @@ ehthumbs.db
 # --------------------------
 
 node_modules
+bower_components
 npm-shrinkwrap.json
 npm-debug.log
 

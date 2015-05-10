@@ -1,0 +1,7 @@
+{
+    "name": "polyfiller-catalog",
+
+    "dependencies": {
+        "js-polyfills": "0.1.5"
+    }
+}

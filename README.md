@@ -9,6 +9,9 @@
 
 > A database for polyfill combinators
 
+
+*For more details see the [Polyfiller](https://github.com/Polyfiller/polyfiller) documentation*
+
 ## Getting Started
 
 This package requires Node `~0.10.0`

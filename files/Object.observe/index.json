@@ -1,0 +1,24 @@
+{
+    "name"  : "Object.observe",
+    "author": "Massimo Artizzu <maxart.x@gmail.com>",
+    "types" : [ "proposal" ],
+
+    "files": [
+        {
+            "name": "Object.observe",
+            "info": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/observe"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://npmjs.org/package/object.observe"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
+}
+

@@ -1,0 +1,24 @@
+{
+    "name"  : "window.performance.now",
+    "author": "Paul Irish",
+    "types" : [ "w3c" ],
+
+    "files": [
+        {
+            "name": "window.performance.now",
+            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/Performance/now"
+        }
+    ],
+
+    "repository": {
+        "type": "gist",
+        "url" : "https://gist.github.com/paulirish/5438650"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT",
+            "url" : "http://opensource.org/licenses/MIT"
+        }
+    ]
+}

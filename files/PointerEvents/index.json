@@ -1,0 +1,24 @@
+{
+    "name"  : "PointerEvents",
+    "author": "David Catuhe",
+    "types" : [ "w3c" ],
+
+    "files": [
+        {
+            "name": "PointerEvents",
+            "info": "http://www.w3.org/Submission/pointer-events/"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://npmjs.org/package/HandJS"
+    },
+
+    "licenses": [
+        {
+            "type": "Apache License",
+            "url" : "https://github.com/deltakosh/handjs/blob/master/LICENSE"
+        }
+    ]
+}

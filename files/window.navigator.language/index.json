@@ -1,0 +1,23 @@
+{
+    "name"  : "window.navigator.language",
+    "author": "Alexander Abashkin <monolithed@gmail.com>",
+    "types" : [ "whatwg" ],
+
+    "files": [
+        {
+            "name": "window.location.origin",
+            "url" : "https://html.spec.whatwg.org/multipage/webappapis.html#navigatorlanguage"
+        }
+    ],
+
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/Polyfiller/polyfiller-catalog"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name"  : "document.currentScript",
+    "author": "James M. Greene <james.m.greene@gmail.com>",
+    "types" : [ "whatwg" ],
+
+    "files": [
+        {
+            "name": "document.scrollingElement",
+            "url" : "http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#dom-document-currentscript"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://www.npmjs.com/package/currentscript"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT",
+            "url" : "https://github.com/JamesMGreene/document.currentScript/blob/master/LICENSE"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name"  : "window.location.origin",
+    "author": "Alexander Abashkin <monolithed@gmail.com>",
+    "types" : [ "whatwg" ],
+
+    "files": [
+        {
+            "name": "window.location.origin",
+            "url" : "https://developer.mozilla.org/en-US/docs/Web/API/URLUtils/origin"
+        }
+    ],
+
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/Polyfiller/polyfiller-catalog"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
+}

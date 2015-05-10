@@ -1,0 +1,4 @@
+# Filters
+
+*.js   filter=treatspaces
+*.json filter=treatspaces

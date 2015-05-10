@@ -1,0 +1,23 @@
+{
+    "name"  : "Array.from",
+    "author": "Mathias Bynens",
+    "types" : [ "ecma" ],
+
+    "files": [
+        {
+            "name": "Array.from",
+            "info": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/from"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://npmjs.org/package/array.from"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
+}

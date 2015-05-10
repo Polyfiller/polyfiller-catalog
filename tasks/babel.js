@@ -17,7 +17,7 @@ module.exports = function (grunt, options) {
             files: [
                 {
                     expand: true,
-                    src   : ['index.js', '{files,tests,utils}/**/*.{js,json}' ],
+                    src   : ['index.js', '{files,tests,tools}/**/*.{js,json}' ],
                     dest  : 'build',
                 }
             ]

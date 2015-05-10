@@ -8,12 +8,12 @@ import chai from 'chai';
 import jsonschema from 'jsonschema';
 
 import schema from './schema';
-import entries from '../utils/entries';
+import entries from '../tools/entries';
+import deindent from '../tools/deindent';
 
 let expect = chai.expect,
     assert = chai.assert;
 
-/** Functional tests */
 describe('catalog', () => {
     let catalog = fs.readdirSync('./files'),
         $schema = new (jsonschema.Validator)();
@@ -37,9 +37,41 @@ describe('catalog', () => {
                 switch (file) {
                     case 'index.js':
                         exception(schema.source, source);
+
+                        for (let item of source) {
+                            let module = '';
+
+                            switch (item.type) {
+                                case 'npm':
+                                    module = require('../../package.json');
+
+                                    if (!(item.name in module.dependencies)) {
+                                        assert.notOk(deindent `Could not find "${item.name}"
+                                            in package.json dependencies`);
+                                    }
+
+                                    if (module.bundleDependencies.indexOf(item.name) === -1) {
+                                        assert.notOk(deindent` Could not find "${item.name}"
+                                            in package.json bundleDependencies`);
+                                    }
+
+                                    break;
+
+                                case 'bower':
+                                    module = require('../../bower.json');
+
+                                    if (!(item.name in module.dependencies)) {
+                                        assert.notOk(deindent `Could not find "${item.name}"
+                                            in bower.json dependencies`);
+                                    }
+
+                                    break;
+                            }
+                        }
+
                         break;
 
-                    case 'index.js':
+                    case 'index.json':
                         for (let [key, value] of entries(source)) {
                             exception(schema.config.properties[key], value, key);
                         }

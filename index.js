@@ -2,4 +2,6 @@
 
 import path from 'path';
 
-export default () => path.resolve('files');
+export default {
+    path: path.resolve('./files')
+};

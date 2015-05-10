@@ -33,7 +33,7 @@ var catalog = require('polyfiller-catalog');
 ### Usage Example
 
 ```js
-catalog(); // returns an absolute path to the catalog
+catalog.path(); // returns an absolute path to the catalog
 ```
 
 

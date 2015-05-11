@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/polyfiller-catalog.svg)](http://badge.fury.io/js/polyfiller-catalog)
 [![Build Status](https://travis-ci.org/Polyfiller/polyfiller-catalog.png)](https://travis-ci.org/Polyfiller/polyfiller-catalog)
 [![Dependency Status](https://david-dm.org/Polyfiller/polyfiller-catalog.svg)](https://david-dm.org/Polyfiller/polyfiller-catalog)
-[![Donate](https://img.shields.io/gratipay/polyfiller.corp.svg)](https://gratipay.com/polyfiller.corp)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.txt)
 
 
@@ -80,6 +79,17 @@ module.exports = [
 ];
 ```
 
+*type*:
+
+Type: `string [npm | bower | file]` <br />
+Default: `None`
+
+*name*:
+
+Type: `string` <br />
+Default: `None`
+
+
 **package.json**
 
 Use `dependencies` and `bundleDependencies` for new features located in `npm` 
@@ -121,6 +131,8 @@ catalog
 ```
 
 ```js
+// index.js
+
 var path = require('path');
 
 module.exports = [

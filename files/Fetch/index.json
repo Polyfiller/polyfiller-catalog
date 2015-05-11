@@ -5,7 +5,7 @@
 
     "files": [
         {
-            "name": "GlobalFetch",
+            "name": "window.fetch",
             "info": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
         },
 

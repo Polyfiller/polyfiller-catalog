@@ -2,7 +2,7 @@
 
 export default [
     {
-        type: 'bower',
-        name: 'notify'
+        type: 'npm',
+        name: 'handjs'
     }
 ];

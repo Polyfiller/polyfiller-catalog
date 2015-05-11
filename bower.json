@@ -2,6 +2,7 @@
     "name": "polyfiller-catalog",
 
     "dependencies": {
+        "notify"      : "0.0.1",
         "js-polyfills": "0.1.5"
     }
 }

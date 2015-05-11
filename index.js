@@ -4,10 +4,17 @@ import path from 'path';
 
 export default {
     get SOURCES () {
-        return path.resolve(__dirname, './files');
+        let location = path.resolve(__dirname, './files');
+
+        return [ location ];
     },
 
     get MODULES () {
-        return path.resolve(__dirname, '../node_modules');
+        let location = path.resolve.bind(null, __dirname, '../');
+
+        return [
+            location('node_modules'),
+            location('bower_components')
+        ];
     }
 };

@@ -33,8 +33,8 @@ var catalog = require('polyfiller-catalog');
 ### Usage Example
 
 ```js
-catalog.SOURCES; // catalog location
-catalog.MODULES; // node_modules directory
+catalog.SOURCES; // ['./files/']
+catalog.MODULES; // ['./node_modules', './bower_components']
 ```
 
 
@@ -93,6 +93,18 @@ Use `dependencies` and `bundleDependencies` for new features located in `npm`
 	"bundleDependencies": [
 		"es6-promises"
 	]
+}
+```
+
+**bower.json**
+
+Use `dependencies` for new features located in `bower` 
+
+```json
+{
+	"dependencies": {
+		"es6-promises": "1.0.10"
+	}
 }
 ```
 

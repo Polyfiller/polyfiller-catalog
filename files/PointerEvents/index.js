@@ -3,6 +3,6 @@
 export default [
     {
         type: 'npm',
-        name: 'getusermedia-js'
+        name: 'handjs'
     }
 ];

@@ -1,6 +1,6 @@
 {
     "name"   : "polyfiller-catalog",
-    "version": "0.0.13",
+    "version": "0.0.15",
     "author" : "Abashkin Alexander <monolithed@gmail.com>",
     "homepage": "https://github.com/Polyfiller/polyfiller-catalog.git",
 
@@ -44,8 +44,8 @@
         "event-source-polyfill"       : "^0.0.1",
         "es6-promises"                : "^1.0.10",
         "es6-collections"             : "^0.5.1",
+        "handjs"                      : "^1.3.10",
         "get-own-property-symbols"    : "^0.3.0",
-        "getusermedia-js"             : "^0.3.0",
         "harmony-reflect"             : "^1.1.2",
         "object.observe"              : "0.2.4",
         "raf.js"                      : "^0.0.4",
@@ -78,7 +78,7 @@
         "es6-promises",
         "es6-collections",
         "get-own-property-symbols",
-        "getusermedia-js",
+        "handjs",
         "harmony-reflect",
         "raf.js",
         "object.observe",
@@ -114,7 +114,7 @@
     },
 
     "commentedDependencies": {
-        "handjs": "^1.3.9"
+        "getusermedia-js": "^0.3.0"
     },
 
     "licenses": [

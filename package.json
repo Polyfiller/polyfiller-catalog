@@ -44,6 +44,7 @@
         "event-source-polyfill"       : "^0.0.1",
         "es6-promises"                : "^1.0.10",
         "es6-collections"             : "^0.5.1",
+        "getusermedia-js"             : "^0.3.0",
         "get-own-property-symbols"    : "^0.3.0",
         "handjs"                      : "^1.3.11",
         "harmony-reflect"             : "^1.1.2",
@@ -77,6 +78,7 @@
         "event-source-polyfill",
         "es6-promises",
         "es6-collections",
+        "getusermedia-js",
         "get-own-property-symbols",
         "handjs",
         "harmony-reflect",
@@ -111,10 +113,6 @@
         "jsonschema"         : "^1.0.1",
         "regenerator"        : "^0.8.22",
         "time-grunt"         : "^1.0.0"
-    },
-
-    "commentedDependencies": {
-        "getusermedia-js": "^0.3.0"
     },
 
     "licenses": [

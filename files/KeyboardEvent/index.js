@@ -3,6 +3,6 @@
 export default [
     {
         type: 'bower',
-        name: 'js-polyfills/url'
+        name: 'js-polyfills/keyboard'
     }
 ];

@@ -39,29 +39,30 @@ describe('catalog', () => {
                         exception(schema.source, source);
 
                         for (let item of source) {
-                            let module = '';
+                            let name = item.name.split('/')[0],
+                                config = '';
 
                             switch (item.type) {
                                 case 'npm':
-                                    module = require('../../package.json');
+                                    config = require('../../package.json');
 
-                                    if (!(item.name in module.dependencies)) {
-                                        assert.notOk(deindent `Could not find "${item.name}"
+                                    if (!(name in config.dependencies)) {
+                                        assert.notOk(deindent `Could not find "${name}"
                                             in package.json dependencies`);
                                     }
 
-                                    if (module.bundleDependencies.indexOf(item.name) === -1) {
-                                        assert.notOk(deindent` Could not find "${item.name}"
+                                    if (config.bundleDependencies.indexOf(name) === -1) {
+                                        assert.notOk(deindent` Could not find "${name}"
                                             in package.json bundleDependencies`);
                                     }
 
                                     break;
 
                                 case 'bower':
-                                    module = require('../../bower.json');
+                                    config = require('../../bower.json');
 
-                                    if (!(item.name in module.dependencies)) {
-                                        assert.notOk(deindent `Could not find "${item.name}"
+                                    if (!(name in config.dependencies)) {
+                                        assert.notOk(deindent `Could not find "${name}"
                                             in bower.json dependencies`);
                                     }
 

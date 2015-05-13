@@ -3,6 +3,6 @@
 export default [
     {
         type: 'npm',
-        name: 'raf.js'
+        name: 'window.requestanimationframe'
     }
 ];

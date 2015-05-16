@@ -3,7 +3,6 @@
 import fs from 'fs';
 import path from 'path';
 
-import 'regenerator/runtime';
 import chai from 'chai';
 import jsonschema from 'jsonschema';
 

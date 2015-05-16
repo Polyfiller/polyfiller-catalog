@@ -7,6 +7,7 @@ module.exports = function (grunt, options) {
             comments: true,
 
             optional: [
+                'runtime',
                 'spec.protoToAssign'
             ],
 

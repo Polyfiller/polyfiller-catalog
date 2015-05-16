@@ -4,14 +4,11 @@ node_js:
     - '0.12'
     - '0.11'
 
-before_install:
-    - npm install -g grunt-cli
-
 install:
     - npm install
 
 before_script:
-    - grunt test
+    - npm test
 
 notifications:
     email: false

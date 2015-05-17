@@ -5,7 +5,7 @@
 
     "files": [
         {
-            "name": "URL",
+            "name": "window.navigator.geolocation",
             "info" : "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation"
         }
     ],

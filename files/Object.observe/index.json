@@ -10,6 +10,10 @@
         }
     ],
 
+    "dependencies": [
+        "Collections"
+    ],
+
     "repository": {
         "type": "npm",
         "url" : "https://npmjs.org/package/object.observe"

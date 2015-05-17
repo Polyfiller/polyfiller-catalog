@@ -30,6 +30,10 @@
         }
     ],
 
+    "dependencies": [
+        "Promise"
+    ],
+
     "repository": {
         "type": "npm",
         "url" : "https://npmjs.org/package/whatwg-fetch"

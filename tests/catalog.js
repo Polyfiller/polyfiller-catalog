@@ -15,7 +15,7 @@ let expect = chai.expect,
 
 describe('catalog', () => {
     let catalog = fs.readdirSync('./files'),
-        $schema = new (jsonschema.Validator)();
+        $schema = new jsonschema.Validator();
 
     let exception = (object, value, key = '') => {
         let block = $schema.validate(value, object);

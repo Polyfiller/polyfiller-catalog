@@ -151,7 +151,7 @@ module.exports = [
 3. Read about file structure above
 4. Make your commits
 5. Write the tests (for new functionality) 
-6. Run `grunt test`
+6. Run `npm test`
 7. Submit Pull Request once Tests are Passing
 
 

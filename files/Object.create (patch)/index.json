@@ -1,5 +1,5 @@
 {
-    "name"  : "Object.create",
+    "name"  : "Object.create (patch)",
     "author": "Dmitry Korobkin",
     "types" : [ "ecma" ],
 

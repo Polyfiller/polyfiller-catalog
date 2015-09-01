@@ -1,0 +1,23 @@
+{
+    "name"  : "Number.prototype.toLocaleString",
+    "author": "Phillip Wills <phil@phillipwills.com>",
+    "types" : [ "ecma" ],
+
+    "files": [
+        {
+            "name": "Number.prototype.toLocaleString",
+            "info": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://npmjs.org/package/number-to-locale-string"
+    },
+
+    "licenses": [
+        {
+            "type": "Public Domain"
+        }
+    ]
+}

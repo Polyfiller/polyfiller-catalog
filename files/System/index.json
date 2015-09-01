@@ -1,0 +1,23 @@
+{
+    "name"  : "System",
+    "author": "Guy Bedford, Luke Hoban, Addy Osmani <addyosmani@gmail.com>",
+    "types" : [ "ecma" ],
+
+    "files": [
+        {
+            "name": "System",
+            "info": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/from"
+        }
+    ],
+
+    "repository": {
+        "type": "npm",
+        "url" : "https://npmjs.org/package/array.from"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
+}

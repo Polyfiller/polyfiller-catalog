@@ -1,7 +1,7 @@
 {
-    "name"   : "polyfiller-catalog",
-    "version": "0.0.29",
-    "author" : "Abashkin Alexander <monolithed@gmail.com>",
+    "name"    : "polyfiller-catalog",
+    "version" : "0.0.30",
+    "author"  : "Abashkin Alexander <monolithed@gmail.com>",
     "homepage": "https://github.com/Polyfiller/polyfiller-catalog.git",
 
     "description": "A database for polyfill combinators",
